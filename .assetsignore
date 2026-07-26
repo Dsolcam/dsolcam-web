@@ -1,0 +1,14 @@
+# Archivos y carpetas que NO deben subirse como contenido público del sitio.
+# Wrangler (Cloudflare Workers Static Assets) usa la misma sintaxis que
+# .gitignore. A diferencia de Cloudflare Pages clásico, esto no se excluye
+# automáticamente, así que hay que declararlo aquí.
+
+.git
+.wrangler
+node_modules
+.DS_Store
+
+# Documentación interna del proyecto: útil en el repositorio de GitHub,
+# pero no debe quedar accesible como página pública del sitio.
+README.md
+CONFIGURACION_PENDIENTE.md
