@@ -13,13 +13,15 @@
 # NOTA: la página 404 personalizada tampoco se define aquí. Ya está cubierta
 # por "not_found_handling": "404-page" en wrangler.jsonc, que sirve
 # automáticamente /404.html para cualquier ruta que no exista.
+#
+# NOTA: no existen atajos "/privacy" ni "/terms" (sin .html) a propósito.
+# Antes existían y causaban un bucle de redirección infinito (ERR_TOO_MANY_REDIRECTS)
+# en /privacy.html y /terms.html. Ver wrangler.jsonc: "html_handling": "none".
 
 # Rutas comunes de conveniencia
 /inicio       /index.html   301
 /home         /index.html   301
 /terrapiezas  /index.html#terrapiezas  301
 /privacidad   /privacy.html 301
-/privacy      /privacy.html 301
 /terminos     /terms.html   301
-/terms        /terms.html   301
 /soporte      /support.html 301
