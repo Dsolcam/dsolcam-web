@@ -1,11 +1,18 @@
-# Cloudflare Pages — reglas de redirección
+# Reglas de redirección para Cloudflare Workers Static Assets
 # Los archivos estáticos existentes (por ejemplo /app-ads.txt, /robots.txt,
 # /sitemap.xml) se sirven directamente y no pasan por estas reglas, por lo
 # que no hay riesgo de bloquear su acceso.
-
-# Redirigir www hacia el dominio principal (requiere que www.dsolcam.com
-# esté configurado como dominio personalizado de este proyecto en Cloudflare Pages)
-https://www.dsolcam.com/*  https://dsolcam.com/:splat  301!
+#
+# NOTA: la redirección de www.dsolcam.com -> dsolcam.com NO se define aquí.
+# Este archivo solo admite rutas relativas (/algo), no dominios completos
+# (https://...), así que ese tipo de redirección debe configurarse por
+# separado como una "Redirect Rule" en el panel de Cloudflare (Rules ->
+# Redirect Rules) una vez que www.dsolcam.com esté agregado como dominio
+# personalizado. Ver README.md, sección de dominio, para el paso a paso.
+#
+# NOTA: la página 404 personalizada tampoco se define aquí. Ya está cubierta
+# por "not_found_handling": "404-page" en wrangler.jsonc, que sirve
+# automáticamente /404.html para cualquier ruta que no exista.
 
 # Rutas comunes de conveniencia
 /inicio       /index.html   301
@@ -16,7 +23,3 @@ https://www.dsolcam.com/*  https://dsolcam.com/:splat  301!
 /terminos     /terms.html   301
 /terms        /terms.html   301
 /soporte      /support.html 301
-
-# Cualquier otra ruta no encontrada muestra la página 404 personalizada
-# (sin generar bucles, ya que 404.html se sirve directamente como archivo estático)
-/*  /404.html  404
