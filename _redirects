@@ -1,0 +1,22 @@
+# Cloudflare Pages — reglas de redirección
+# Los archivos estáticos existentes (por ejemplo /app-ads.txt, /robots.txt,
+# /sitemap.xml) se sirven directamente y no pasan por estas reglas, por lo
+# que no hay riesgo de bloquear su acceso.
+
+# Redirigir www hacia el dominio principal (requiere que www.dsolcam.com
+# esté configurado como dominio personalizado de este proyecto en Cloudflare Pages)
+https://www.dsolcam.com/*  https://dsolcam.com/:splat  301!
+
+# Rutas comunes de conveniencia
+/inicio       /index.html   301
+/home         /index.html   301
+/terrapiezas  /index.html#terrapiezas  301
+/privacidad   /privacy.html 301
+/privacy      /privacy.html 301
+/terminos     /terms.html   301
+/terms        /terms.html   301
+/soporte      /support.html 301
+
+# Cualquier otra ruta no encontrada muestra la página 404 personalizada
+# (sin generar bucles, ya que 404.html se sirve directamente como archivo estático)
+/*  /404.html  404

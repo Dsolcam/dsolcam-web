@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>404 — Página no encontrada | Dsolcam</title>
+  <meta name="description" content="La página que buscas no existe o fue movida." />
+  <meta name="robots" content="noindex, follow" />
+  <meta name="theme-color" content="#1B6B57" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#contenido" data-i18n="skip_link">Saltar al contenido principal</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <img class="brand-mark" src="assets/logo/dsolcam-mark.png" alt="" width="36" height="36" />
+        <span>Dsolcam</span>
+      </a>
+      <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+        <ul class="nav-links">
+          <li><a href="index.html" data-i18n="nav.home">Inicio</a></li>
+          <li><a href="index.html#aplicaciones" data-i18n="nav.apps">Aplicaciones</a></li>
+          <li><a href="index.html#terrapiezas" data-i18n="nav.terrapiezas">TerraPiezas</a></li>
+          <li><a href="support.html" data-i18n="nav.support">Soporte</a></li>
+          <li><a href="privacy.html" data-i18n="nav.privacy">Privacidad</a></li>
+        </ul>
+        <div class="lang-switch" role="group" aria-label="Selector de idioma">
+          <button type="button" data-lang="es" aria-pressed="true" data-i18n="lang.es" data-i18n-attr="aria-label:lang.name_es">ES</button>
+          <button type="button" data-lang="en" aria-pressed="false" data-i18n="lang.en" data-i18n-attr="aria-label:lang.name_en">EN</button>
+        </div>
+      </nav>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" data-i18n-attr="aria-label:nav.menu_open">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="error-page">
+      <div class="container">
+        <svg class="error-piece" viewBox="0 0 160 160" role="img" data-i18n-attr="aria-label:error.image_alt" aria-label="Ilustración de una pieza de rompecabezas perdida">
+          <path d="M40 20 h35 a12 12 0 0 1 0 24 a12 12 0 0 0 0 24 h25 v35 a12 12 0 0 1 -24 0 a12 12 0 0 0 -24 0 h-32 v-35 a12 12 0 0 0 24 0 a12 12 0 0 0 -24 0 z"
+            fill="none" stroke="#1C3F5F" stroke-width="3" stroke-linejoin="round" opacity="0.55" stroke-dasharray="6 7"></path>
+        </svg>
+        <p class="eyebrow" data-i18n="error.eyebrow">Error 404</p>
+        <h1 data-i18n="error.title">Esta pieza no encaja</h1>
+        <p data-i18n="error.desc">La página que buscas no existe o fue movida. Como en TerraPiezas, a veces una pieza se pierde entre el resto del paisaje.</p>
+        <a class="btn btn-primary" href="index.html" data-i18n="error.cta_home">Volver al inicio</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom" style="border-top:none;margin-top:0;">
+        <span>&copy; <span data-current-year>2026</span> Dsolcam. <span data-i18n="footer.rights">Todos los derechos reservados.</span></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/translations.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
