@@ -176,7 +176,7 @@ window.DSOLCAM_I18N = {
     "terms.s7_title": "7. Modificaciones",
     "terms.s7_body": "Estos términos pueden actualizarse en el futuro. Se recomienda revisar esta página periódicamente.",
     "terms.s8_title": "8. Contacto",
-    "terms.s8_body": "Para consultas sobre estos términos, escribe a REEMPLAZAR_CON_CORREO_DE_SOPORTE.",
+    "terms.s8_body": "Para consultas sobre estos términos, escribe a soporte@dsolcam.com.",
     "terms.legal_note": "Este documento es una base general y no constituye asesoría legal. Debe revisarse por un profesional antes de su publicación definitiva.",
 
     /* ---------- Política de privacidad ---------- */
@@ -206,7 +206,7 @@ window.DSOLCAM_I18N = {
     "privacy.s11_title": "11. Cambios a la política",
     "privacy.s11_body": "Esta política puede actualizarse. La fecha de la versión vigente se indica al inicio de este documento.",
     "privacy.s12_title": "12. Contacto",
-    "privacy.s12_body": "Para consultas sobre privacidad, escribe a REEMPLAZAR_CON_CORREO_DE_SOPORTE.",
+    "privacy.s12_body": "Para consultas sobre privacidad, escribe a soporte@dsolcam.com.",
     "privacy.legal_note": "Esta política es una base general, no constituye asesoría legal y debe revisarse antes de publicarse."
   },
 
@@ -381,7 +381,7 @@ window.DSOLCAM_I18N = {
     "terms.s7_title": "7. Modifications",
     "terms.s7_body": "These terms may be updated in the future. It is recommended to review this page periodically.",
     "terms.s8_title": "8. Contact",
-    "terms.s8_body": "For questions about these terms, write to REPLACE_WITH_SUPPORT_EMAIL.",
+    "terms.s8_body": "For questions about these terms, write to soporte@dsolcam.com.",
     "terms.legal_note": "This document is a general baseline and does not constitute legal advice. It should be reviewed by a professional before final publication.",
 
     /* ---------- Privacy policy ---------- */
@@ -411,7 +411,7 @@ window.DSOLCAM_I18N = {
     "privacy.s11_title": "11. Changes to this policy",
     "privacy.s11_body": "This policy may be updated. The effective date of the current version is shown at the top of this document.",
     "privacy.s12_title": "12. Contact",
-    "privacy.s12_body": "For privacy questions, write to REPLACE_WITH_SUPPORT_EMAIL.",
+    "privacy.s12_body": "For privacy questions, write to soporte@dsolcam.com.",
     "privacy.legal_note": "This policy is a general baseline, does not constitute legal advice, and must be reviewed before publishing."
   }
 };
