@@ -159,7 +159,7 @@ window.DSOLCAM_I18N = {
 
     /* ---------- Términos de uso ---------- */
     "terms.title": "Términos de uso",
-    "terms.updated": "Última actualización: REEMPLAZAR_FECHA",
+    "terms.updated": "Última actualización: 26 de julio de 2026",
     "terms.intro": "Estos términos describen las condiciones de uso del sitio web de Dsolcam y de la aplicación TerraPiezas. Al utilizar el sitio o la aplicación, aceptas estas condiciones.",
     "terms.s1_title": "1. Uso de la aplicación",
     "terms.s1_body": "TerraPiezas se ofrece para uso personal y no comercial. No está permitido modificar, descompilar o redistribuir la aplicación sin autorización.",
@@ -181,7 +181,7 @@ window.DSOLCAM_I18N = {
 
     /* ---------- Política de privacidad ---------- */
     "privacy.title": "Política de privacidad",
-    "privacy.updated": "Última actualización: REEMPLAZAR_FECHA",
+    "privacy.updated": "Última actualización: 26 de julio de 2026",
     "privacy.intro": "Esta política describe cómo el sitio web de Dsolcam y la aplicación TerraPiezas gestionan la información de las personas usuarias.",
     "privacy.s1_title": "1. Responsable del sitio y la aplicación",
     "privacy.s1_body": "Dsolcam es la persona desarrolladora responsable de este sitio y de la aplicación TerraPiezas. REVISAR_ANTES_DE_PUBLICAR: incluir un correo de contacto verificado antes de publicar esta política.",
@@ -364,7 +364,7 @@ window.DSOLCAM_I18N = {
 
     /* ---------- Terms of use ---------- */
     "terms.title": "Terms of use",
-    "terms.updated": "Last updated: REPLACE_DATE",
+    "terms.updated": "Last updated: 26 de julio de 2026",
     "terms.intro": "These terms describe the conditions for using the Dsolcam website and the TerraPiezas application. By using the site or the app, you accept these conditions.",
     "terms.s1_title": "1. Use of the application",
     "terms.s1_body": "TerraPiezas is offered for personal, non-commercial use. Modifying, decompiling, or redistributing the application without authorization is not permitted.",
@@ -386,7 +386,7 @@ window.DSOLCAM_I18N = {
 
     /* ---------- Privacy policy ---------- */
     "privacy.title": "Privacy policy",
-    "privacy.updated": "Last updated: REPLACE_DATE",
+    "privacy.updated": "Last updated: 26 de julio de 2026",
     "privacy.intro": "This policy describes how the Dsolcam website and the TerraPiezas application handle user information.",
     "privacy.s1_title": "1. Data controller",
     "privacy.s1_body": "Dsolcam is the developer responsible for this site and the TerraPiezas application. REVIEW_BEFORE_PUBLISHING: include a verified contact email before publishing this policy.",
