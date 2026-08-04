@@ -20,7 +20,7 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), microphone=(), camera=(), interest-cohort=()
   X-Frame-Options: SAMEORIGIN
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-WfSUPNSVB4HAWpLLS0ZzFOFkanxxQa4AKucTRvENSWY=' https://*.tawk.to; style-src 'self' 'unsafe-inline' https://*.tawk.to; img-src 'self' data: https://*.tawk.to; font-src 'self' https://*.tawk.to; connect-src 'self' https://*.tawk.to wss://*.tawk.to; frame-src https://*.tawk.to; frame-ancestors 'self'; base-uri 'self'; form-action 'self'
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-IOl+qRcB8kTBnt7m8V9F6BnZ/cCad+5c8SEBUN094D0=' https://*.tawk.to https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://*.tawk.to; img-src 'self' data: https://*.tawk.to; font-src 'self' https://*.tawk.to; connect-src 'self' https://*.tawk.to wss://*.tawk.to https://cloudflareinsights.com; frame-src https://*.tawk.to; frame-ancestors 'self'; base-uri 'self'; form-action 'self'
   Cache-Control: public, max-age=3600
 
 /css/*
